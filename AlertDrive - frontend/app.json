@@ -20,7 +20,7 @@
       "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "ACCESS_BACKGROUND_LOCATION", "FOREGROUND_SERVICE"],
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCBNvHHze4BLgZYw9Xilfk3PESw-KK4Zlo"
+          "apiKey": "YOUR-API-KEY"
         }
       }
     },
