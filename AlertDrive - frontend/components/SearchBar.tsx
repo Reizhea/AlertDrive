@@ -17,7 +17,7 @@ interface SearchBarProps {
   onPlaceSelect: (latitude: number, longitude: number, description: string) => void;
 }
 
-const GOOGLE_API_KEY = 'AIzaSyCBNvHHze4BLgZYw9Xilfk3PESw-KK4Zlo';
+const GOOGLE_API_KEY = 'YOUR-API-KEY';
 
 export default function SearchBar({ onFocus, onBlur, onPlaceSelect }: SearchBarProps) {
   const [query, setQuery] = useState('');
