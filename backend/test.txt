@@ -1,0 +1,7 @@
+curl -X GET "http://localhost:5000/api/navigation/directions?origin=12.994828,77.661874&destination=12.997563,77.670633"
+curl -X POST "http://localhost:5000/api/check-location" -H "Content-Type: application/json" -d "{\"lat\": 12.998533, \"lng\": 77.649260}"
+curl -X POST "http://localhost:5000/api/check-location" -H "Content-Type: application/json" -d "{\"lat\": 12.993545, \"lng\": 77.662115}"
+curl -X POST "http://localhost:5000/api/check-location" -H "Content-Type: application/json" -d "{\"lat\": 12.994686, \"lng\": 77.664556}"
+
+curl -X GET "http://localhost:5000/api/navigation/directions?origin=12.994828,77.661874&destination=12.997563,77.670633"
+
