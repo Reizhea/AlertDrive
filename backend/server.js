@@ -5,7 +5,6 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 const zoneRoutes = require('./routes/zoneRoutes');
-const alertRoutes = require('./routes/alertRoutes');
 const mapRoutes = require("./routes/mapRoutes");
 
 const app = express();
@@ -18,7 +17,6 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(err => console.log('MongoDB connection error:', err));
 
 app.use('/api', zoneRoutes);
-app.use('/api', alertRoutes);
 app.use("/api", mapRoutes);
 app.get('/api/status', (req, res) => res.json({ status: "OK" }));
 
