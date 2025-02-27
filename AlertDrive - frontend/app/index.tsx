@@ -27,7 +27,7 @@ export default function HomeScreen() {
   const [routeCoordinates, setRouteCoordinates] = useState<{ latitude: number; longitude: number }[]>([]);
   const [isSearchBarFocused, setIsSearchBarFocused] = useState(false);
   const mapRef = useRef<MapView>(null);
-  const GOOGLE_API_KEY = 'AIzaSyCBNvHHze4BLgZYw9Xilfk3PESw-KK4Zlo';
+  const GOOGLE_API_KEY = 'YOUR-API-KEY';
 
   useEffect(() => {
     startBackgroundLocationTracking();
